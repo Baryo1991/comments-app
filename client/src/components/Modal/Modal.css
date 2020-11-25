@@ -1,0 +1,32 @@
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+}
+
+.backdrop .modal {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    height: 200px;
+    animation: fromBottom 0.5s;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fromBottom {
+    0% {
+        transform: translateY(100vh);
+    }
+}

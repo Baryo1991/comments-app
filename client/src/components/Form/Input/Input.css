@@ -1,0 +1,11 @@
+.input-container {
+    width: 100%;
+    position: relative;
+}
+
+.input-container input,
+.input-container textarea  {
+    outline: none;
+    width: 100%;
+    border: 1px solid #aaa;
+}

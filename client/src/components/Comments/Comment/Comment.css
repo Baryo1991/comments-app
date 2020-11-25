@@ -1,0 +1,49 @@
+.comment {
+    display: flex;
+    box-shadow: 1px 2px 3px 3px #eee;
+    position: relative;
+}
+
+.comment .btn-delete {
+    top: 7.5%;
+    right: 7.5%;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.comment .btn-delete i {
+    font-size: 1.2rem;
+}
+.comment .btn-delete i:hover {
+    color: var(--color-primary);
+}
+
+.comment .gravatar-container {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.comment .gravatar-container img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+}
+
+.comment .comment-details {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+
+.comment .comment-details strong {
+    letter-spacing: 1px;
+}
+.comment .comment-details .comment-message {
+    color: #888;
+}

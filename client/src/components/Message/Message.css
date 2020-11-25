@@ -1,0 +1,28 @@
+.message {
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0.8;
+    border: 2px solid;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.message.success {
+    color: rgb(13, 138, 13);
+    border-color: (13, 138, 13);
+}
+
+.message.danger {
+    color: rgb(141, 8, 8);
+    border-color:  rgb(141, 8, 8);
+}
+
+.message.warning {
+    color: rgb(196, 131, 10);
+    border-color: rgb(196, 131, 10);
+}
+
+.message.info {
+    color: rgb(40, 151, 224);
+    border-color: rgb(40, 151, 224);
+}
