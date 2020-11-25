@@ -10,6 +10,6 @@ Instructions:
 
 4) Move to comments-app folder "cd .."
 
-5} Server: run "npm run server" --> in comments-app folder
+5) Server: run "npm run server" --> in comments-app folder
 
 6) Client: run "npm run client" --> in comments-app folder
